@@ -13,20 +13,11 @@ color:lig
   border:1px soild black;
 }
 
-.home{
-  display:flex;
-  justify-content: flex-start;
-}
 
-.projects{
+.home, .projects, .contacts{
   display:flex;
-  justify-content: center;
+  justify-content: align-t;
   color: black;
+  font-size:12px
  
-}
-
-
-.contacts{
-  display:flex;
-  justify-content: flex-end;
 }
