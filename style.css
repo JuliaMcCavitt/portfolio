@@ -9,6 +9,15 @@ color:lig
 }
 
 img{
-  content:30px;
+  height:150px;
   border:1px soild black;
+}
+body{
+  display:flex;
+  justify-content: center;
+}
+
+.home{
+  display:flex;
+  justify-content: center;
 }
