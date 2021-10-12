@@ -8,4 +8,7 @@ body{
 color:lig
 }
 
-maze.{}
+maze.{
+  height:30px;
+  border:1px soild black;
+}
