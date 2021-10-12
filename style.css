@@ -16,8 +16,33 @@ color:lig
 
 .home, .projects, .contacts{
   display:flex;
-  justify-content: align-t;
+  justify-content:flex-start;
+align-content:center;
+  align-items:baseline;
   color: black;
   font-size:12px
  
 }
+.home{
+  display:flex;
+  justify-content:flex-start;
+align-content:center;
+  align-items:baseline;
+  color: black;
+  font-size:12px}
+
+.projects{
+  display:flex;
+  justify-content:flex-start;
+align-content:center;
+  align-items:baseline;
+  color: black;
+  font-size:12px}
+
+.contacts{
+  display:flex;
+  justify-content:flex-start;
+align-content:center;
+  align-items:stretch;
+  color: black;
+  font-size:12px}
