@@ -8,16 +8,25 @@ body{
 color:lig
 }
 
-img{
+.maze{
   height:150px;
   border:1px soild black;
-}
-body{
-  display:flex;
-  justify-content: center;
 }
 
 .home{
   display:flex;
+  justify-content: flex-start;
+}
+
+.projects{
+  display:flex;
   justify-content: center;
+  color: black;
+ 
+}
+
+
+.contacts{
+  display:flex;
+  justify-content: flex-end;
 }
