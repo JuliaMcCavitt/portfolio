@@ -5,7 +5,9 @@ h1 {
 }
 
 body{
-color:lig
+color:lig;
+  display:flex;
+  justify-content:flex-start;
 }
 
 .maze{
@@ -14,35 +16,32 @@ color:lig
 }
 
 
-.home, .projects, .contacts{
-  display:flex;
-  justify-content:flex-start;
-align-content:center;
-  align-items:baseline;
-  color: black;
-  font-size:12px
  
 }
 .home{
   display:flex;
-  justify-content:flex-start;
-align-content:center;
+  flex-container:flex-start;
+align-content:flex-start;
   align-items:baseline;
   color: black;
-  font-size:12px}
+  font-size:12px;
+width:100px;
+  
+}
 
 .projects{
   display:flex;
-  justify-content:flex-start;
-align-content:center;
-  align-items:baseline;
+  flex-container:flex-start;
   color: black;
-  font-size:12px}
+  font-size:12px;
+  length:px;
+width:100px
+}
 
 .contacts{
   display:flex;
-  justify-content:flex-start;
-align-content:center;
-  align-items:stretch;
+  flex-container:flex-start;
   color: black;
-  font-size:12px}
+  font-size:12px;
+  width:150px;
+}
