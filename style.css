@@ -45,9 +45,8 @@ border:10px solid black;
   postion: sticky;
     top:0;
   z-index:100;
-  
 }
 
 .list-info[
-background-color: Medium Champagne;
+color: red;
 ]
