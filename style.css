@@ -75,3 +75,10 @@ background-color:rgb(206, 212, 218);
 .list-info[
 color: red;
 ]
+
+.square {
+  height: 500px;
+  width: 50px;
+  background-color: red;
+}
+
