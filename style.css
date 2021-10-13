@@ -9,9 +9,9 @@ body{
   background-color: ;
 }
 
-.1body{
+body{
   font-family: 'Crimson Text', serif;
-  background-color: ;
+  background-image:url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2Fcolor%20spiral.jpg?v=1634096472331');
 }
 
 .home,.projects,.contacts{
@@ -55,7 +55,10 @@ border:10px solid black;
 
 .intro{
 background-color:rgb(206, 212, 218);
+  font-size:25px;
+  text-align:center;
   border:2px solid black;
+  content:
 }
 
 
