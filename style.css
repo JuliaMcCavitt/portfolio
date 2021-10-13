@@ -47,6 +47,10 @@ border:10px solid black;
   z-index:100;
 }
 
+.intro{
+background-color:rgb();
+}
+
 .list-info[
 color: red;
 ]
