@@ -5,24 +5,15 @@ h1 {
 }
 
 body{
-  font-family: 'Crimson Text', serif;}
-
-body{
- 
-  
   font-family: 'Crimson Text', serif;
-  background-color: rgb(60, 105, 151);
-  border: 20px solid rgb(248, 150, 30);
-  width:1450px;
+  background-color: ;
 }
 
 .home,.projects,.contacts{
-  display:flex;
-  justify-content:
-   align-items:flex-start;
+  display:flex
+  justify-content:center;
   border:20px;
   color:black;
- 
 }
 
 .maze{
@@ -48,10 +39,6 @@ border:10px solid black;
 
    padding:1px
    
-}
-.intro{
-  background-color:rgb(9, 64, 116);
-    border: 20px solid rgb(248, 150, 30);
 }
 
 .nav{
