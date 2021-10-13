@@ -54,11 +54,14 @@ border:10px solid black;
 }
 
 .intro{
+  display:flex;
+  justify-content:center;
 background-color:rgb(206, 212, 218);
   font-size:25px;
   text-align:center;
   border:2px solid black;
-  content:
+ width:40em;
+  
 }
 
 
