@@ -47,6 +47,11 @@ border:10px solid black;
    
 }
 
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: #3d9970;]
+
 .nav{
   postion: sticky;
     top:0;
@@ -75,10 +80,4 @@ background-color:rgb(206, 212, 218);
 .list-info[
 color: red;
 ]
-
-.square {
-  height: 500px;
-  width: 50px;
-  background-color: red;
-}
 
