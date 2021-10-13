@@ -11,7 +11,7 @@ body{
 
 body{
   font-family: 'Crimson Text', serif;
-  background-image:url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2Fcolor%20spiral.jpg?v=1634096472331');
+  background-image:white;
 }
 
 .home,.projects,.contacts{
@@ -56,9 +56,15 @@ border:10px solid black;
 .intro{
   display:flex;
   justify-content:center;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  flex-wrap: wrap;
+   align-content:center;
+    text-align:center;
 background-color:rgb(206, 212, 218);
   font-size:25px;
-  text-align:center;
   border:2px solid black;
  width:40em;
   
