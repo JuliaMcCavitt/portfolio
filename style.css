@@ -47,15 +47,18 @@ border:10px solid black;
    
 }
 
-.square {
-  height: 200px;
-  width: 200px;
-  background-color: #3d9970;]
 
-.nav{
-  postion: sticky;
+
+.nav, .square{
+    display:flex;
+  justify-content:space-evenly;
+  postion: fixed;
     top:0;
   z-index:100;
+    height: 25%x;
+  width: 1520px;
+  background-color: rgb(255, 225, 105);
+  
 }
 
 .intro{
