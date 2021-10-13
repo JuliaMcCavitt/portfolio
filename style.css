@@ -11,11 +11,22 @@ h1 {
   color:black;
 }
 
-.maze,.maze1{
-    display:flex
-  justify-content:space-around;
-  height:150px;
-  border:1px soild black;
+.maze{
+    display:flex;
+  justify-content:center;
+  align-items:center;
+  height:120px;
+  border:10px soild black;
 }
 
  
+.maze1{
+    display:flex;
+  justify-content:flex-start;
+  align-items:flex-start;
+  border:1px soild black;
+}
+
+.maze, .maze1{
+  border:20px ;
+}
