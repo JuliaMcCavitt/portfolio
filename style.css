@@ -71,25 +71,14 @@ background-color:rgb(206, 212, 218);
 }
 
 
+
 .list-info[
 color: red;
 ]
 
-
-.square{
-  height: 200px;
-  width: 200px;
-  background-color: #3d9970;
-
-
+.square {
+  height: 500px;
+  width: 50px;
+  background-color: red;
 }
 
-body, html {
-  height: 100%;
-}
-
-body {
-  padding: 0;
-  background-color: #333;
- 
-}
