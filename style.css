@@ -4,44 +4,18 @@ h1 {
   color: green;
 }
 
-body{
-color:lig;
-  display:flex;
-  justify-content:flex-start;
+.home,.projects,.contacts{
+  display:flex
+  justify-content:space-around;
+  border:20px;
+  color:black;
 }
 
-.maze{
+.maze,.maze1{
+    display:flex
+  justify-content:space-around;
   height:150px;
   border:1px soild black;
 }
 
-
  
-}
-.home{
-  display:flex;
-  flex-container:flex-start;
-align-content:flex-start;
-  align-items:baseline;
-  color: black;
-  font-size:12px;
-width:100px;
-  
-}
-
-.projects{
-  display:flex;
-  flex-container:flex-start;
-  color: black;
-  font-size:12px;
-  length:px;
-width:100px
-}
-
-.contacts{
-  display:flex;
-  flex-container:flex-start;
-  color: black;
-  font-size:12px;
-  width:150px;
-}
