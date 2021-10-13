@@ -1,11 +1,12 @@
 /* CSS files add styling rules to your content */
 
 h1 {
-  color: green;
+  color: crimson;
 }
 
 body{
   font-family: 'Crimson Text', serif;
+  background-color: ;
 }
 
 .home,.projects,.contacts{
@@ -46,3 +47,7 @@ border:10px solid black;
   z-index:100;
   
 }
+
+.list-info[
+color:fff3b0;
+]
