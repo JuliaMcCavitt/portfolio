@@ -7,15 +7,19 @@ h1 {
 body{
   font-family: 'Crimson Text', serif;}
 
-.intro{
+body{
+ 
+  
   font-family: 'Crimson Text', serif;
   background-color: rgb(60, 105, 151);
   border: 20px solid rgb(248, 150, 30);
+  width:1450px;
 }
 
 .home,.projects,.contacts{
-  display:flex
-  justify-content:center;
+  display:flex;
+  justify-content:
+   align-items:flex-start;
   border:20px;
   color:black;
  
@@ -47,6 +51,7 @@ border:10px solid black;
 }
 .intro{
   background-color:rgb(9, 64, 116);
+    border: 20px solid rgb(248, 150, 30);
 }
 
 .nav{
