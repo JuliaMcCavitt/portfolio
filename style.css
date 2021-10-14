@@ -1,7 +1,9 @@
 /* CSS files add styling rules to your content */
 
 h1 {
-  color: crimson;
+    display:flex;
+  justify-content:center;
+  color: black;
 }
 
 body{
@@ -48,37 +50,33 @@ body{
 
 .projectz{
   display:flex;
-  justify-content:center;
+  justify-content:flex-start;
   width:150px;
 
 }
 
-.maze{
+
+
+.maze,.balloon{
   display:flex;
   justify-content:center;
-  width:100px;
+  width:200px;
 
-  padding:10px;
-  border:5px solid black;
+  padding:15px;
+  border:5px solid rgb(248, 249, 250);
 
 }
 
-.balloon{
-  display:flex;
-  justify-content:center;
-  width:100px;
 
-  padding:10px;
-  border:5px solid black;
-}
 
 
 .project-text{
    display:flex;
-  justify-content:flex-start;
-  width:300px;
-  margin:10px;
-  border:5px solid black;
+  justify-content:space-evenly;
+  width:450px;
+  margin:1px;
+  padding:1px;
+  border:5px solid white;
 }
 
 
