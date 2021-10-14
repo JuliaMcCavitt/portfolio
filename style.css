@@ -49,6 +49,22 @@ border:10px solid black;
    padding:1px
    
 }
+.balloon{
+    display:flex;
+  justify-content:space-between;
+  padding:5px;
+  margin:20px;
+  align-items:flex-start;
+  
+  
+}
+
+.balloon, .balloon1{
+
+   padding:1px
+   
+}
+
 
 
 
