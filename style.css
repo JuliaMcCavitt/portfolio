@@ -48,8 +48,37 @@ body{
 
 .projectz{
   display:flex;
-  justify-content:Space-evenly
+  justify-content:center;
+  width:150px;
+
+}
+
+.maze{
+  display:flex;
+  justify-content:center;
+  width:100px;
+
+  padding:10px;
+  border:5px solid black;
+
+}
+
+.balloon{
+  display:flex;
+  justify-content:center;
+  width:100px;
+
+  padding:10px;
+  border:5px solid black;
+}
+
+
+.project-text{
+   display:flex;
+  justify-content:flex-start;
   width:300px;
+  margin:10px;
+  border:5px solid black;
 }
 
 
