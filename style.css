@@ -6,7 +6,9 @@ h1 {
 
 body{
   font-family: 'Crimson Text', serif;
+
   background-color: ;
+  
 }
 
 body{
@@ -27,13 +29,14 @@ body{
 
 
 
-.maze, .maze1, .balloon, .ballon1{
+.maze, .balloon,.maze1,.balloon{
    display:flex;
-  justify-content:space-around;
+  justify-content:space-around
   column-count: 3;
-  column-gap: 40px;
-  width:200px
-  
+  column-gap: 400x;
+  width:200px;
+   float: top;
+
 }
 
 
