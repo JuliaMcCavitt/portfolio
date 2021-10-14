@@ -85,9 +85,10 @@ body{
   justify-content:space-around;
   postion: fixed;
     top:0px;
+  margin-right:auto;
   z-index: 1;
     height: 30px;
-  width: 1550px;
+  width: 1520px;
   background-image: url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2Fgold.jpg?v=1634142571658');
     border:0px solid gold;
   
@@ -95,18 +96,18 @@ body{
 
 .intro{
   display:flex;
-  justify-content:center;
+  justify-content:flex-start;
   
     display: block;
-    margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+  
   flex-wrap: wrap;
-   align-content:center;
-    text-align:center;
+   align-content:flex-start;
+    text-align:flex-start;
 background-color:rgb(248, 249, 250);
   font-size:25px;
-  border:2px solid rgb(251, 251, 242);
- width:40em;
+  border:20px solid rgb(248, 249, 250);
+ width:24em;
   
 }
 
