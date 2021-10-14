@@ -25,47 +25,16 @@ body{
  
 }
 
-.maze{
-    display:flex;
-  justify-content:center;
-  align-items:center;
-  height:120px;
-border:10px solid black;
-}
 
- 
-.maze1{
-    display:flex;
-  justify-content:space-between;
-  padding:5px;
-  margin:20px;
-  align-items:flex-start;
-  
+
+.maze, .maze1, .balloon, .ballon1{
+   display:flex;
+  justify-content:space-around;
+  column-count: 3;
+  column-gap: 40px;
+  width:200px
   
 }
-
-.maze, .maze1{
-
-   padding:1px
-   
-}
-.balloon{
-    display:flex;
-  justify-content:space-between;
-  padding:5px;
-  margin:20px;
-  align-items:flex-start;
-  
-  
-}
-
-.balloon, .balloon1{
-
-   padding:1px
-   
-}
-
-
 
 
 .nav, .square{
