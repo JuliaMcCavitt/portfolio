@@ -29,14 +29,27 @@ body{
 
 
 
-.maze, .balloon,.maze1,.balloon{
+.maze, .maze1{
    display:flex;
-  justify-content:space-around
-  column-count: 3;
-  column-gap: 400x;
+  justify-content:space-around;
   width:200px;
    float: top;
 
+}
+
+
+.balloon,.balloon1{
+   display:flex;
+  justify-content:space-around;
+  width:200px;
+   float: top;
+
+}
+
+.projectz{
+  display:flex;
+  justify-content:Space-evenly
+  width:300px;
 }
 
 
