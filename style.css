@@ -22,7 +22,7 @@ body{
   display:flex;
   justify-content:center;
   font-size;25px;
-  
+  top:1
   border:0px;
   hieght;0px
   width:350px;
@@ -36,7 +36,7 @@ body{
     margin-left:auto;
   width:50px;
    float: top;
-   top:0px;
+   top:1%;
 }
 
 .maze, .maze1{
@@ -141,15 +141,16 @@ box-sizing:border-box;
     top:0px;
   margin-right:auto;
   margin-top:auto;
-	padding-top: .5em;
-	padding-bottom: .5em;
-  z-index: 1;
+	padding-top: .1em;
+	padding-bottom: .50em;
+  z-index: 0;
   overflow:hidden;
     height: 55px;
-  min-height: 5vh;
-  width: 1520px;
+
+   width: 100%;
   background-image: url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2Fgold%20cracks.jpg?v=1634310810832');
     border:0px solid gold;
+ 
 }
 
   
@@ -165,6 +166,7 @@ box-sizing:border-box;
   length:20px;
  background-color:rgb(248, 249, 250);
 border:25px solid rgb(248, 249, 250);
+  
 }
 
 .intro, .block{
@@ -179,6 +181,7 @@ border:25px solid rgb(248, 249, 250);
     text-align:flex-start;
 
   font-size:25px;
+  width: 1520px;
  
   
 }
