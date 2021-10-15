@@ -2,7 +2,7 @@
 
 h1 {
     display:flex;
-  justify-content:center;
+  j
   color: black;
 }
 
@@ -108,14 +108,22 @@ body{
   background-image: url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2Fgold.jpg?v=1634142571658');
     border:0px solid gold;
 
-  .rectangle, .rec, .cblock{
-       display:flex;
-  justify-content:center;
-     height: 45px;
-  width: 120px;
-     top:0px;
-    
+  .rec {
+      display:flex;
+  justify-content:space-evenly;
+  postion: fixed;
+    top:0px;
+  margin-right:auto;
+  margin-top:auto;
+  z-index: 1;
+    height: 45px;
+  width: 1520px;
+  background-image: url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2Fcolor-contact.jpg?v=1634230544071');
+    border:0px solid gold;
+
 }
+  
+ 
 
 .intro, .block{
   display:flex;
