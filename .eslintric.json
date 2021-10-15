@@ -382,22 +382,7 @@
     "QUADRATIC": true,
     "BEZIER": true,
     "CURVE": true,
-    "loadSound": true
-  }
-}
-{
-  "parserOptions": {
-    "ecmaVersion": 2018
-  },
-  "env": {
-    "browser": true,
-    "es6": true
-  },
-  "extends": "eslint:recommended",
-  "rules": {
-    "no-undef": "error"
-  },
-  "globals": {
+    "loadSound": true,
     "remove": true,
     "canvas": true,
     "width": true,
@@ -516,6 +501,7 @@
     "endRaw": true,
     "endRecord": true,
     "saveBytes": true,
+    "rect": true,
     "save": true,
     "saveJSON": true,
     "saveJSONObject": true,
