@@ -22,7 +22,7 @@ body{
   display:flex;
   justify-content:center;
   font-size;25px;
-  top:1
+  top:1px;
   border:0px;
   hieght;0px
   width:350px;
@@ -35,8 +35,8 @@ body{
   justify-content:center;
     margin-left:auto;
   width:50px;
-   float: top;
-   top:1%;
+   stick: top;
+  
 }
 
 .maze, .maze1{
@@ -137,8 +137,10 @@ background-color:rgb(248, 249, 250);
 box-sizing:border-box;
     display:flex;
   justify-content:space-evenly;
-  postion: fixed;
-    top:0px;
+  
+   position: fixed;
+  top: 0;
+  width: 100%;
   margin-right:auto;
   margin-top:auto;
 	padding-top: .1em;
