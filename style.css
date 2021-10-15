@@ -2,7 +2,7 @@
 
 h1 {
     display:flex;
-  j
+  justify-content:center;
   color: black;
 }
 
@@ -22,10 +22,11 @@ body{
   display:flex;
   justify-content:center;
   font-size;25px;
+  
   border:0px;
   hieght;0px
   width:350px;
-  color:rgb(0,0,0);
+  color:white;
  
 }
 
@@ -89,6 +90,7 @@ background-color:rgb(248, 249, 250);
   width:450px;
   margin:1px;
   padding:1px;
+  background-color:white;
   border:5px solid white;
 }
 
@@ -125,7 +127,7 @@ background-color:rgb(248, 249, 250);
   z-index: 1;
     height: 45px;
   width: 1520px;
-  background-image: url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2Fgold.jpg?v=1634142571658');
+  background-image: url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2Fgold%20cracks.jpg?v=1634310810832');
     border:0px solid gold;
 }
 
