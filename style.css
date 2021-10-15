@@ -106,9 +106,28 @@ background-color:rgb(248, 249, 250);
   margin-top:auto;
     height: 45px;
   width: 520px;
+  background-color:grey;
  
     border:5px solid blue;
 }
+.ctitle, .cblock{
+   display:flex;
+  justify:flex-end;
+ margin:50px;
+  height:500px;
+}
+
+
+.ltitle, .dtitle{
+    display:flex;
+  justify-content:flex-start;
+  postion: fixed;
+  margin-right:auto;
+  margin-top:auto;
+    height: 45px;
+  width: 520px;
+  background-color:grey;}
+
 .infom, .list-infom{
    display:flex;
   justify-content:space-evenly;
@@ -178,6 +197,12 @@ border:25px solid rgb(248, 249, 250);
 .list-info[
 color: red;
 ]
+
+
+
+
+
+
 
 
 
