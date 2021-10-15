@@ -91,6 +91,18 @@ body{
 }
 
 
+.btitle, .row{
+    display:flex;
+  justify-content:flex-start;
+  postion: fixed;
+  margin-right:auto;
+  margin-top:auto;
+    height: 45px;
+  width: 1520px;
+  background-image: url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2Fmodern-shapes.jpg?v=1634306215851');
+    border:0px solid blue;
+}
+
 .nav, .square{
     display:flex;
   justify-content:space-evenly;
