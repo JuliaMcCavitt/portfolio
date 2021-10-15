@@ -90,8 +90,11 @@ body{
   border:5px solid white;
 }
 
+.body1{
+  
+}
 
-.btitle, .row{
+.btitle, .c-title{
     display:flex;
   justify-content:flex-start;
   postion: fixed;
@@ -100,7 +103,7 @@ body{
     height: 45px;
   width: 1520px;
   background-image: url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2Fmodern-shapes.jpg?v=1634306215851');
-    border:0px solid blue;
+    border:5px solid blue;
 }
 .infom, .list-infom{
    display:flex;
@@ -127,7 +130,9 @@ body{
   
 .list-infom{
      display:flex;
+   margin-right:auto;
   justify-content:flex-start;
+  font-size:40px;
 }
 
 .intro, .block{
