@@ -67,22 +67,28 @@
       <dt>phone: 646-724-1344</dt>
     </dl>
    
-      <form action="mailto:contact@yourdomain.com"
-method="POST"
-enctype="multipart/form-data"
-name="EmailForm">
-    Name:<br>
-    <input type="text" size="19" name="Contact-Name"><br><br>
-    Email:<br>
-    <input type="email" name="Contact-Email"><br><br> 
-    Message:<br> 
-    <textarea name="Contact-Message" rows="6″ cols="20″>
-    </textarea><br><br> 
-    <button type="submit" value="Submit">Send</button>
-        </form>  
+     <form method="post" action="subscriberform.php">
+<textarea name="message"></textarea>
+<input type="submit">
+</form>
       
       
-        
+        <form method="post" action="https://www.example.com/cgi-bin/FormMail.pl" accept-charset="ISO-8859-1" onsubmit="var   originalCharset = document.charset; document.charset = 'ISO-8859-1';
+  window.onbeforeunload = function (){document.charset=originalCharset;};">:
+
+    Your Name    <input name="realname" />
+    Your Email   <input name="email"    /> 
+    Your Message 
+     <textarea cols="40" rows="10" name="Message">
+     </textarea> 
+     <input type="submit" value="Send" /> 
+     <input type="hidden" name="recipient" value="juliamue="/thankyou.html" />
+    <input type="hidden" name="missing_fields_rccavitt@gmail.com" />
+    <input type="hidden" name="subject" value="Subject" />
+    <input type="hidden" name="redirect"  valedirect"  value="https://www.example.com/error.html" />
+    <input type="hidden" name="required" value="realname,email,Message" />
+
+</form>
         
 
       
