@@ -101,29 +101,16 @@ background-color:rgb(248, 249, 250);
      display:flex;
   justify-content:flex-start;
   margin-right:auto;
-  margin-top:auto;
-   margin:50px;
-    height: 125px;
+   margin:60px;
+    height: 135px;
     width: 2px;
   
 }
 
-.c-title, .btitle{
-  display:flex;
-  justify-content:center;
-  display:inline-block;
-  margin-left:15px;
-  font-size;15px;
-
-  padding:10px;
-  border:1px;
-  height;300px
-  width:150px;
-  color:white;
-}
 
 
-.cblock {display:inline-block;margin-left:120px;width:90px} 
+
+.cblock,.c-title {display:inline-block;margin-left:120px;width:305px} 
 
  .btitle{
     display:flex;
@@ -132,11 +119,11 @@ background-color:rgb(248, 249, 250);
   margin-right:auto;
   margin-top:25px;
    margin:25px;
-    height: 45px;
+    height: 75px;
   width: 3000px;
-  background-color:grey;
+  background-image:url("https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2F742572-free-colors-background-2560x1600-large-resolution.jpg?v=1634406869641");
  
-    border:5px solid blue;
+    border:5px solid white;
 }
 
 
@@ -147,7 +134,7 @@ background-color:rgb(248, 249, 250);
    display:flex;
   justify-content:space-evenly;
    width: 1250px;
-  height: 620px;
+  height: 1020px;
  
 }
 
@@ -181,6 +168,8 @@ box-sizing:border-box;
    margin-right:auto;
   justify-content:flex-start;
   font-size:40px;
+  width: 1250px;
+  marign:100px;
 }
 
 .intro{
