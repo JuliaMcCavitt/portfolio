@@ -97,13 +97,21 @@ background-color:rgb(248, 249, 250);
 .body1{
   
 }
+.c-title, .btitle{ margin-right:auto;
+  margin-top:auto;
+   margin:50px;
+    height: 45px;
+    width: 52px;
+  
+}
 
- .c-title, .cblock{
+ .same-row, .btitle{
     display:flex;
   justify-content:flex-start;
   postion: fixed;
   margin-right:auto;
   margin-top:auto;
+   margin:50px;
     height: 45px;
   width: 52px;
   background-color:grey;
@@ -113,15 +121,7 @@ background-color:rgb(248, 249, 250);
 
 
 
-.ltitle, .dtitle{
-    display:flex;
-  justify-content:flex-start;
-  postion: fixed;
-  margin-right:auto;
-  margin-top:auto;
-    height: 45px;
-  width: 520px;
-  background-color:grey;}
+
 
 .infom, .list-infom{
    display:flex;
