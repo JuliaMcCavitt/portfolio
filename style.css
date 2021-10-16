@@ -8,9 +8,7 @@ h1 {
 
 body{
   font-family: 'Crimson Text', serif;
-
-background-image:url("https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2F69W3UT.jpg?v=1634409631168"); 
-  
+background:white;
 }
 
 body{
@@ -169,10 +167,11 @@ box-sizing:border-box;
 
 
 .intro{
+  padding:55px;
   width:550px;
   length:20px;
- background-color:rgb(248, 249, 250);
-border:25px solid rgb(248, 249, 250);
+ background-image:url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2F1.webp?v=1634409984841');
+border:5px solid rgb(163,141,21);
   
 }
 
