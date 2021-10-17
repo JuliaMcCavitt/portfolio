@@ -24,9 +24,11 @@ body{
   border:0px;
   hieght;0px
   width:350px;
-  color:white;
- 
+  color:black;
+  text
 }
+
+
 
 .eicon{
    display:flex;
@@ -158,7 +160,7 @@ box-sizing:border-box;
     height: 55px;
 
    width: 100%;
-  background-image: url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2Fdownload%208.png?v=1634409868179');
+  background-color: rgb(249,249,249);
     border:0px solid gold;
  
 }
