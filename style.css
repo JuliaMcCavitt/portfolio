@@ -3,12 +3,15 @@
 h1 {
     display:flex;
   justify-content:center;
+  padding:20px;
   color: black;
 }
 
 body{
   font-family: 'Crimson Text', serif;
-background:white;
+background:red;
+  width:1200px;
+  length:1700px;
 }
 
 body{
@@ -25,9 +28,8 @@ body{
   hieght;0px
   width:350px;
   color:black;
-  text
+  text-decoration: none;
 }
-
 
 
 .eicon{
