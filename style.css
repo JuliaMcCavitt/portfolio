@@ -176,14 +176,25 @@ box-sizing:border-box;
   padding:105px;
    margin-right:auto;
   margin-left:auto;
-  width:1450px;
+  width:1280px;
   length:70px;
  background-image:url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2F1.webp?v=1634409984841');
 border:5px solid rgb(163,141,21);
   
 }
 
-
+.block{
+   display:flex;
+  justify-content:flex-start;
+  
+   margin-right:auto;
+  margin-left:auto;
+  width:1500px;
+  length:70px;
+ background-image:url('');
+border:5px solid rgb(163,141,21);
+  
+}
 
 
 
