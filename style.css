@@ -19,7 +19,7 @@ body{
   background-image:white;
 }
 
-.home,.projects,.contacts,.eicon{
+.home,.projects,.contacts{
   display:flex;
   justify-content:center;
   font-size;25px;
@@ -32,7 +32,7 @@ body{
 }
 
 
-.eicon{
+.e{
    display:flex;
   justify-content:center;
     margin-left:auto;
@@ -187,11 +187,9 @@ border:5px solid rgb(163,141,21);
    display:flex;
   justify-content:flex-start;
   
-   margin-right:auto;
-  margin-left:auto;
+   margin-right:-1;
   width:1500px;
   length:70px;
- background-image:url('');
 border:5px solid rgb(163,141,21);
   
 }
