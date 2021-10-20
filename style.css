@@ -176,14 +176,14 @@ box-sizing:border-box;
 .intro{
    display:flex;
   justify-content:flex-start;
-  padding:105px;
-   margin-right:auto;
-  margin-left:auto;
-  width:1280px;
-  length:70px;
- background-image:url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2F1.webp?v=1634409984841');
+
+  margin-left:-7px;
+  width:1510px;
+  length:170px;
+  background-color:white;
+ background-image:url('');
 border:5px solid rgb(163,141,21);
-  
+  text-font:18px;
 }
 
 
