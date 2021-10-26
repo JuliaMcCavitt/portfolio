@@ -4,7 +4,7 @@ h1 {
     display:flex;
   justify-content:center;
   padding:50px;
-  color: black;
+  color: white;
 }
 
 body{
@@ -14,7 +14,9 @@ background:grey;
   length:1700px;
 }
 
-
+p{
+  color:white;
+}
 
 .home,.projects,.contacts{
   display:flex;
