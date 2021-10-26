@@ -9,7 +9,7 @@ h1 {
 
 body{
   font-family: 'Crimson Text', serif;
-background:grey;
+background:rgb(18, 18, 18);
   width:1200px;
   length:1700px;
 }
@@ -127,9 +127,9 @@ border:5px solid black;
   margin-right:auto;
   margin-top:25px;
    margin:25px;
-    height: 75px;
+    height: 475px;
   width: 3000px;
-  background-image:url("https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2Fdownload%20(3).jpg?v=1634408638205");
+  background-image:url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2Firon%20bar.jpg?v=1635281783784');
     border:5px solid white;
 }
 
