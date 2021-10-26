@@ -115,8 +115,9 @@ border:5px solid black;
 
 
 .c-title{padding:1px;}
+.cblock{width:100px}
 
-.c-title {display:inline-block;margin-left:320px;width:305px} 
+.c-title, .cblock{display:inline-block;margin-left:320px;width:305px} 
 
  .btitle{
     display:flex;
@@ -128,7 +129,7 @@ border:5px solid black;
     height: 475px;
   width: 3000px;
   background-image:url('https://cdn.glitch.me/8634911d-a68b-42cc-ae89-9088472dc67a%2Firon%20bar.jpg?v=1635281783784');
-    border:5px solid white;
+    border:5px solid grey;
 }
 
 
