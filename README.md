@@ -1,118 +1,78 @@
-# Unit 1: Online Portfolio README
+# Unit 6: Giphy Project
 
-## Overview
+## Project Description
 
-In this unit, coders will review HTML and CSS concepts from the Introduction to Web Development course and build a multi-page professional Portfolio.
+In this unit, you will create a Giphy App. The Giphy App will take a search term as an input and display a random Gif in a thumbnail on the screen. To create this project, you will learn the anatomy of an API Request, use Promises to make a simple GET request, handle a JSON response object, and use jQuery to display a gif.
 
 ## Day 1
 
-### Set up
+### Day 1 Goal 1: Set Up
 
-- [ ] Complete the [Project Planning Document](https://docs.google.com/document/d/19kWZMa_uTM0NtrArYVYxH0ozEx4P4U69hoXMJYVq4vY/edit). Make sure you have thought about how you want your portfolio to look and feel, and that you have finished the wireframe! 
+#### Planning
 
-- [x] Go to the repository.
+- [ ] Complete the project planning document.
 
-- [ ] Fork this repository to your GitHub account.
+#### GitHub Set-Up
 
-- [ ] Create a new project on Glitch that imports your repo from GitHub.
+- [x] Go to the repository
+- [ ] Fork this repository to your Github account and import to a new workspace
+- [ ] Submit your website using the link on the Agenda
 
-- [ ] If there's time, start the Day 2 HTML and CSS tasks. 
+#### Starter Code
+
+- [ ] Read through the HTML starter code to understand the organization and class names given.
+- [ ] Go to the API request URL [here](https://api.giphy.com/v1/gifs/search?q=puppy&rating=pg&api_key=dc6zaTOxFJmzC) to see how the API request is set up.
+
+### Day 1 Goal 2: Write a fetch request to the API
+
+- [ ] Declare a variable that stores the following API request URL: https://api.giphy.com/v1/gifs/search?q=puppy&rating=pg&api_key=dc6zaTOxFJmzC
+- [ ] Write the fetch request that logs the entire API request to the console
+
+### Day 1 Goal 3: Navigate the API request to return a gif
+
+- [ ] Navigate through the API request URL to return only the first gif in the array
+  - [ ] HINT: Work your way through the layers one at a time (check your console every time!) to find where the original image URLs are stored
+- [ ] Update your API request so that only the original image URL is logged to the console
+
+#### Wrap
+
+- [ ] Commit your changes!
 
 ## Day 2
 
-### HTML
+### Day 2 Goal 1: Display a gif to the screen
 
-- [ ] Add a header with your name to your Portfolio homepage.
+- [ ] Update the fetch request so the original gif URL is appended to the screen in the correct div
+- [ ] Use string interpolation to get the gif image to display on the screen
 
-- [ ] Update the title tag of both of your pages.
+### Day 2 Goal 2: Add a click handler so the API request can use inputted data
 
-- [ ] Create your navigation bar that will link all your pages together.
-
-- [ ] Give your HTML elements classes in order to add Flexbox to the CSS.
-
-- [ ] Write your biography on your About Me page.
-
-### CSS
-
-- [ ] Choose 2-4 colors for your theme and add them as font or background colors.
-
-- [ ] Add flexbox to your navigation bar.
-
-- [ ] Add at least 1 Google Font.
+- [ ] Write a click handler for the "Searc" button and move your fetch request into the body
+- [ ] Declare a variable to save the user's input
+- [ ] Use string interpolation to update the request URL in your fetch request so a gif from the user's search term displays when the button is clicked
 
 ### Wrap
 
-- [ ] If you finish early begin Day 3 tasks. 
-- [ ] Submit your work to the session agenda.
+- [ ] Commit your changes!
 
 ## Day 3
 
-### Set Up
+### Day 3 Goal 1: Randomize the gif that is displayed
 
-- [ ] Link your homepage and About Me pages together using your nav bar.
-
-- [ ] Add two more HTML files (Projects, Contact) to your Portfolio and link them all together.
-
-- [ ] Upload at least 2 images so they are hosted in your Portfolio.
-
-- [ ] Update the title tags of all your new HTML files.
-
-- [ ] Link your CSS file to all of your HTML files.
+- [ ] Declare a variable that stores a random number from 0 to the total number of items (different gifs) in the response
+- [ ] Update the request URL in your fetch request to display a random gif onto the screen
 
 ### Wrap
 
-- [ ] If you have finished early, move on to the Day 4 tasks. 
-- [ ] Push your changes back to your GitHub repo!
+- [ ] Commit your changes!
 
-## Day 4 
+### Day 3 Goal 2: Add a project extension
 
-### Reflection
-- [ ] Go back to the rubric/checklist in your project plan. Check off all the tasks you have completed so far. 
-
-
-### HTML
-
-- [ ] Add a professional headshot of yourself.
-
-In your Projects page, create a display of at least 4 of your old coding projects that includes:
-
-    - [ ] Project name
-    - [ ] Link to project GitHub repo
-    - [ ] Link to project live site
-    - [ ] Short description of project including coding languages used
-    - [ ] Hosted screenshot of project
-
-Add your contact information to your Contact page, including your:
-
-    - [ ] GitHub account
-    - [ ] Email address
-    - [ ] LinkedIn
-    - [ ] Resume
-
-### CSS
-
-- [ ] Format the sizes of all your pictures
-
-### Wrap
-
-- [ ] Push your changes back to your GitHub repo!
-
-
-## Project Extensions (If you finish everything above early)
-
-- [ ] Style your nav bar so the links change color/style when your hover over them or when you click them.
-
-- [ ] Add a unordered or ordered list of your accomplishments or favorite things to your About Me page.
-
-- [ ] Make sure all your external links open up into new tabs.
-
-- [ ] Create a link that pops open the email browser with your email address in the to: field.
-
-- [ ] Arrange your Projects into a creative interactive or animated photo gallery or slideshow.
+- [ ] Display multiple images in the response to the screen.
+- [ ] Create a mail_to link that will email the GIF to anyone you want.
+- [ ] Make the GIF pop out in a modal when clicked on.
 
 ## References/Tools
 
-* [Fellowship Reference Table](https://docs.google.com/document/d/1qrY2OC-6S04oOXZlYmXja7lmKBmdApR-HXJkhfd67e8/edit)
-* [W3Schools] (https://www.w3schools.com/)
-* [MDN web docs] (https://developer.mozilla.org/en-US/)
-* [Introduction to Bootstrap] (https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+- [Fellowship Reference Table](https://docs.google.com/document/d/1qrY2OC-6S04oOXZlYmXja7lmKBmdApR-HXJkhfd67e8/edit)
+- [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
